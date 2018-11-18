@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.demo--container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 0 6px 1px black;
+}
+
+.demo--split-line {
+  width: 100%;
+}
+
+.animation--container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.animation--search-icon {
+  margin: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.animation--search-field {
+  display: none;
+}
+.animation--search-field_expanded {
+  display: flex;
+  animation: fadein 0.5s;
+  margin: 1rem 1rem 1rem 0;
+  width: 10rem;
+  height: 1.5rem;
+}
+
+@keyframes fadein {
+  from {
+    width: 0rem;
+  }
+
+  to {
+    width: 10rem;
+  }
+}
