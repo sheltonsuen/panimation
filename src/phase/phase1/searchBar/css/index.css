@@ -37,7 +37,7 @@ body {
 }
 .animation--search-field_expanded {
   display: flex;
-  animation: fadein 0.5s cubic-bezier(1, 0.04, 0.32, 1.06);
+  animation: fadein 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   margin: 1rem 1rem 1rem 0;
   width: 10rem;
   height: 1.5rem;
